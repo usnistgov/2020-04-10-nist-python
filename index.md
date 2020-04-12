@@ -292,6 +292,10 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
+<div class="alert alert-warning">
+  This lesson assumes some familiarity with <a href="https://pages.nist.gov/2020-04-10-nist-shell">Bash Shell</a>.
+</div>
+
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
